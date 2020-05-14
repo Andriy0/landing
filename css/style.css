@@ -1035,6 +1035,9 @@ body {
   }
   .footer-section-menu a {
     font-size: 18px;
-    line-height: 40px;
+    line-height: 50px;
+  }
+  .footer-section-menu {
+    margin-bottom: 30px;
   }
 }
