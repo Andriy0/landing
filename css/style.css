@@ -1044,4 +1044,7 @@ body {
     font-size: 18px;
     line-height: 50px;
   }
+  .footer-section-menu {
+    margin-bottom: 30px;
+  }
 }
