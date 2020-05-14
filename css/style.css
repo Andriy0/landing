@@ -232,10 +232,18 @@ body {
 
 @media (min-width: 1200px) {
   .header-section {
-  height: 100vh;
+    height: 100vh;
   }
   .header-section-selly {
-    padding-top: 20%;
+    padding-top: 6%;
+    margin-bottom: 2.5%;
+  }
+  .header-section-subtitle {
+    margin-bottom: 5%;
+  }
+  .header-section-buttons {
+    margin-bottom: 4.5%;
+  }
 }
 
 /*! content */
