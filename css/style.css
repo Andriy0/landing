@@ -231,7 +231,11 @@ body {
 }
 
 @media (min-width: 1200px) {
+  .header-section {
   height: 100vh;
+  }
+  .header-section-selly {
+    padding-top: 20%;
 }
 
 /*! content */
