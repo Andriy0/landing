@@ -275,18 +275,12 @@ body {
 }
 
 .side-menu a {
-  /* Style for "Lorem dolo" */
-
   color: #757575;
   /* font-size: 12px; */
   font-size: calc(10px + 4 * ((100vw - 320px) / (1590 - 320)));
   font-weight: 400;
   line-height: 62px;
   text-transform: uppercase;
-  /* Text style for "Lorem dolo" */
-  letter-spacing: 2.4px;
-  /* Text style for "Gravida" */
-  /* color: #383838; */
   letter-spacing: 2.4px;
 }
 
@@ -303,7 +297,6 @@ body {
   width: 30px;
   height: 1px;
   border-bottom: solid #a4a6a8 1px;
-  /* background: black; */
 }
 
 .side-menu a:hover {
@@ -319,10 +312,6 @@ body {
   background: url(../img/mail.svg) #3a3a3a center no-repeat;
 }
 
-/* .side-menu-mail img {
-  object-position: center;
-} */
-
 @media (max-width: 1060px) {
   .sider {
     display: none;
@@ -336,10 +325,8 @@ body {
 
 .content-central-part {
   height: auto;
-  /* width: 59.2%; */
   width: 65%;
   margin: 0px auto;
-  /* background-color: cyan; */
 }
 
 /*! content-central-part-1 */
@@ -485,9 +472,7 @@ body {
 
 .content-central-part-3 {
   display: block;
-  /* background-color: khaki; */
   position: relative;
-  /* flex-wrap: wrap; */
 }
 
 .shape-3::after {
@@ -505,13 +490,6 @@ body {
 .header-3 {
   margin-bottom: 30px;
 }
-
-/* .header-3 {
-  max-width: 114%;
-  width: 114%;
-  position: absolute;
-  left: -7%;
-} */
 
 /*! products */
 
@@ -743,10 +721,12 @@ body {
   .login {
     width: 100%;
     border-radius: 5px;
+    margin-bottom: 15px;
   }
   .button {
     width: 100%;
     border-radius: 5px;
+    margin-bottom: 15px;
   }
 }
 
@@ -917,6 +897,7 @@ body {
 }
 
 .footer-section-input-button {
+  display: inline-block;
   width: 230px;
   height: 72px;
   box-shadow: inset 0 -3px 0 #3bd4b6;
@@ -927,7 +908,8 @@ body {
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
-  line-height: 45.5px;
+  /* line-height: 45.5px; */
+  line-height: 72px;
   text-transform: uppercase;
   /* Text style for "sign up fo" */
   letter-spacing: 0.08px;
